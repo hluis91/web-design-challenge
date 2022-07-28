@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Latitude Analysis</title>
+
+ <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="C:\Users\lshrn\Desktop\Web-Design-Challenge\assets\css\css.html">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg bg-light">
+		<div class="container-fluid">
+		  <a class="navbar-brand bg-info p-2 rounded text-white" href="#">Latitude</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  Plots
+				</a>
+				<ul class="dropdown-menu">
+				  <li><a class="dropdown-item" href="././visualizations/max_temp.html">Max Temperature</a></li>
+				  <li><a class="dropdown-item" href="././visualizations/humidity.html">Humidity</a></li>
+				  <li><a class="dropdown-item" href="./visualizations/cloudiness..html">Cloudiness</a></li>
+				  <li><a class="dropdown-item" href="./visualizations/wind_speed.html">Wind Speed</a></li>
+				</ul>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="./visualizations/comparisons.html">Comparision</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="./visualizations/data.html">Data</a>
+			  </li>
+
+			</ul>
+		</div>
+	  </nav>
+			  
+			  <div class="container">
+				  <div class="row">
+					 <div class="col-md-6">
+					<h1>Summary: Latitude vs X</h1>
+					  <img class="w-50 me-4 float-start" src="assets\Images\Fig1.png">
+					  <p>The purpose of this project was to analysis how weather patterns may change and alter as one travels closer to the equator. An Open Weather API and the CitiPy Python Library to randomly pull 500 cities from around the world was to create the dataset. </p>
+					  <p>After assembling the data, Pandas and Matplotlib Python libraries were used to analyze the data set. The four dependent variables were: Max Temperature, Humidity, Cloudiness, and Wind Speed. This dashboard shows the source data and the visualizations based on the four dependent variables.</p> 
+				   </div>  
+				   <div class="col-md-1"></div>  
+					 <div class="col-md-4 sidebar">
+						 <div class="col-md-12">
+						   <h1>Visualizations</h1>
+						 </div>
+					 <div class="row">
+							 <a class="col-md-6" href="./visualizations/max_temp.html"><img class="w-100" src="assets\Images\Fig1.png" width="200px" height="150px"></a>
+							 <a class="col-md-6" href="./visualizations/humidity.html"><img class="w-100" src="assets\Images\Fig2.png" width="200px" height="150px"></a>
+						  <a class="col-md-6" href="./visualizations/cloudiness..html"><img class="w-100" src="assets\Images\Fig3.png" width="200px" height="150px"></a>
+						  <a class="col-md-6" href="./visualizations/wind_speed.html"><img class="w-100" src="assets\Images\Fig4.png" width="200px" height="150px"></a>
+						</div>
+						<div class="col-md-3"></div>
+					  </div>    
+				   </div>         
+				  <div class="col-md-1"></div>
+				</div>      
+			  </div>		
+			  
+			 <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+
+</html>
